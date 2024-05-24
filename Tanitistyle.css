@@ -1,0 +1,54 @@
+html{
+	background-color:#2B65EC;
+	font-family:verdana;
+}
+h4{
+	font-size:800%;
+	text-align:center;
+	margin-bottom:-20px;
+}
+Nav{
+	font-size:500%;
+	background-color:#141414;
+}
+#container{
+	display:flex;
+	justify-content:space-between;
+}
+h3{
+	font-size:300%;
+}
+p, li{
+	font-size:150%;
+}
+#transport-options{
+    display: flex;
+}
+#airplane, #boat, #rental-car, #bus, #walking{
+    flex:1;
+    margin:0 10px;
+    background-color: lightblue;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#on-island{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#top-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#rental-car, #bus{
+    flex: 1;
+}
+#walking{
+    margin-top: 20px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
